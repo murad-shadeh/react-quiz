@@ -1,3 +1,32 @@
+# React Quiz App
+
+#### A web app that tests the user React Mastery within 15 questions.
+
+##### Note: This App runs on local environment only
+
+---
+
+## The wireframe
+
+![alt text](public/wireframe.jpg)
+
+---
+
+### Technologies and tools used:
+
+- HTML
+- CSS
+- JAVASCRIPT
+- REACTJS
+- NodeJS
+- Fetch API
+- GIT
+- GITHUB
+- VSCODE
+- MIRO
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +97,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+
+_By Murad Dabbous_
