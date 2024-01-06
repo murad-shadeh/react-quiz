@@ -12,6 +12,14 @@
 
 ---
 
+## How to run the app
+
+- Open the terminal and run the command npm install json-server
+- After that run the server by using npm run server
+- Open another terminal window and run the app using npm start
+
+---
+
 ### Technologies and tools used:
 
 - HTML
