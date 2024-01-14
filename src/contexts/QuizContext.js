@@ -83,10 +83,21 @@ function QuizProvider({ children }) {
   );
 
   useEffect(function () {
-    fetch("http://localhost:8000/questions")
-      .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataReceived", payload: data }))
-      .catch((err) => dispatch({ type: "dataFailed" }));
+    async function fetchQuestion() {
+      // fetch("https://react-quiz-server-7943.onrender.com")
+      //   .then((res) => res.json())
+      //   .then((data) => dispatch({ type: "dataReceived", payload: data }))
+      //   .catch((err) => dispatch({ type: "dataFailed" }));
+      try {
+        const res = await fetch(`https://react-quiz-server-7943.onrender.com`);
+        const data = await res.json();
+        // console.log(data.message);
+        dispatch({ type: "dataReceived", payload: data.message });
+      } catch (err) {
+        dispatch({ type: "dataFailed" });
+      }
+    }
+    fetchQuestion();
   }, []);
 
   return (
