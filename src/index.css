@@ -8,7 +8,9 @@
   --color-accent: #ffa94d;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
 
 * {
   margin: 0;
@@ -39,19 +41,13 @@ body {
 .main {
   width: 50rem;
 }
-.spinner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
+
 .app-header {
   width: 66rem;
   margin-bottom: 4rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .error {
@@ -64,11 +60,13 @@ body {
 }
 
 img {
-  width: 14rem;
+  width: 10rem;
+  padding-right: 10px;
 }
 
 h1 {
-  font-family: "Codystar";
+  padding-left: 10px;
+  font-family: "Miltonian Tattoo";
   font-size: 5.6rem;
 }
 

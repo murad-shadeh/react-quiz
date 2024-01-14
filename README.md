@@ -2,7 +2,7 @@
 
 #### A web app that tests the user React Mastery within 15 questions.
 
-##### Note: This App runs on local environment only
+##### Note: This app runs on local environment only
 
 ---
 
