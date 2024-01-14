@@ -2,7 +2,7 @@
 
 #### A web app that tests the user React Mastery within 15 questions.
 
-##### Note: This app runs on local environment only
+#### [View on Netlify](https://assessment-in-react.netlify.app)
 
 ---
 
@@ -12,26 +12,21 @@
 
 ---
 
-## How to run the app
-
-- Open the terminal and run the command npm install json-server
-- After that run the server by using npm run server
-- Open another terminal window and run the app using npm start
-
----
-
 ### Technologies and tools used:
 
 - HTML
 - CSS
 - JAVASCRIPT
 - REACTJS
+- React Context
 - NodeJS
+- NPM
 - Fetch API
 - GIT
 - GITHUB
 - VSCODE
 - MIRO
+- Netlify
 
 ---
 
